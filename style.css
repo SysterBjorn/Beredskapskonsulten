@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background-color: #f0f0f0;  /* Example background color */ 
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    background-color: #ddd;  /* Example hover color */
+}
+
+
+/* Responsiveness with Media Queries */
+@media (min-width: 768px) {
+    nav a {
+        display: inline-block; /* Display links horizontally */
+    }
+}
+
+
+/* Section Styles */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+/* Example Form Styles */
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Example button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #f0f0f0;  /* Example background color */ 
+    padding: 10px 0;
+    margin-top: 20px;
+}
